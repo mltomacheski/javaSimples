@@ -9,18 +9,20 @@ import main.java.com.ejcar.pojo.VeiculoPojo;
 public class App{
         public static void main( String[] args )
     {
-        Conexao conexao = new Conexao();
-        conexao.getConexao();
+        // Conexao conexao = new Conexao();
+        // conexao.getConexao();
 
         Veiculo veiculo = new Veiculo("1546fgd", "","2019","", "ssugifygiYG");
-        VeiculoPojo veiculoPojo = new VeiculoPojo(
-            veiculo.getPlaca(), 
-            veiculo.getModelo(),
-            veiculo.getAno(), 
-            veiculo.getCor(),
-            veiculo.getChassi()
-            );
-        VeiculoDao veiculoDao = new VeiculoDao();
-        veiculoDao.cadastrarVeiculo(veiculoPojo);
+        // VeiculoPojo veiculoPojo = new VeiculoPojo(
+        //     veiculo.getPlaca(), 
+        //     veiculo.getModelo(),
+        //     veiculo.getAno(), 
+        //     veiculo.getCor(),
+        //     veiculo.getChassi()
+        //     );
+        // VeiculoDao veiculoDao = new VeiculoDao();
+        // veiculoDao.cadastrarVeiculo(veiculoPojo);
+
+        System.out.println(veiculo.toString());
     }
 }

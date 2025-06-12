@@ -1,6 +1,7 @@
 package main.java.com.ejcar.dao;
 
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import main.java.com.ejcar.conexao.Conexao;
